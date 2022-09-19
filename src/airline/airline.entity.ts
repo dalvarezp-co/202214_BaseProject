@@ -22,7 +22,4 @@ export class AirlineEntity {
 
     @ManyToMany(() => AirportEntity, airport => airport.airlines)
     airports: AirportEntity[];
-
-    // @OneToMany(() => ExhibitionEntity, exhibition => exhibition.museum)
-    // exhibitions: ExhibitionEntity[];
 }
