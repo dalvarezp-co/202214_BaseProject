@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { AirlineEntity } from "src/airline/airline.entity";
+import { AirlineEntity } from "../airline/airline.entity";
 import { Column, Entity, ManyToMany, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
